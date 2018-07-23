@@ -43,3 +43,7 @@ Route::delete('/listtran/{id}', function ($id) {
 Route::get('chart', 'ChartController@graph');
 
 Route::resource('transactionmodify','Transation');
+
+Route::get('task', function () {
+    return view('task/task');
+});

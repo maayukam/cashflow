@@ -39,7 +39,9 @@
                     <ul class="nav navbar-nav">
                         &nbsp;
                         @auth
-                        <li><a href="{{ url('/test') }}">Expense Manager</a></li>
+                        <li><a href="{{ url('/test') }}">cash</a></li>
+                        <li><a href="{{ url('/task') }}">Task</a></li>
+                        <li><a href="{{ url('task/task') }}">Doc</a></li>
                         @endauth
                     </ul>
                     @endif
